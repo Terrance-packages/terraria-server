@@ -2,7 +2,7 @@
 
 _pkgname=terraria
 pkgname="${_pkgname}-server"
-pkgver=1.4.5.6
+pkgver=1.4.5.8
 _pkgver=$(echo $pkgver | sed 's/\.//g')
 pkgrel=49
 pkgdesc="Official dedicated server for Terraria"
@@ -17,7 +17,7 @@ source=("https://terraria.org/api/download/pc-dedicated-server/${pkgname}-${_pkg
         "${pkgname}@.service"
         "${_pkgname}.tmpfiles"
         "${_pkgname}.sysusers")
-sha256sums=('d75c455ac217fd3434448c8f8251c1347f0875a85c438589dc71b557777e9155'
+sha256sums=('f513a4ac9789d34af766291ae217c9cd7d9472e13782a0e2b17512f70d7a8334'
             '12ff6682a62c1c60881820fcda140e6bed470956cbe3470d181334d693cbf055'
             '6a87f9f758811528913fa4828667b200ab7dcb6623734475ecbd8f8dab337b2f'
             '0d7b715b8f12253ddfb5483a95dc491466960120737a06a5903b3613b1767090'

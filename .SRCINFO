@@ -1,19 +1,23 @@
 pkgbase = terraria-server
 	pkgdesc = Official dedicated server for Terraria
-	pkgver = 1.4.5.6
+	pkgver = 1.4.5.8
 	pkgrel = 49
 	url = https://terraria.org/
 	arch = x86_64
 	license = unknown
 	makedepends = unzip
-	source = https://terraria.org/api/download/pc-dedicated-server/terraria-server-1456.zip
+	depends = tmux
+	backup = etc/conf.d/terraria-server/default.txt
+	source = https://terraria.org/api/download/pc-dedicated-server/terraria-server-1458.zip
+	source = terraria-server.sh
 	source = config.txt
 	source = terraria-server@.service
 	source = terraria.tmpfiles
 	source = terraria.sysusers
-	sha256sums = d75c455ac217fd3434448c8f8251c1347f0875a85c438589dc71b557777e9155
+	sha256sums = f513a4ac9789d34af766291ae217c9cd7d9472e13782a0e2b17512f70d7a8334
+	sha256sums = 12ff6682a62c1c60881820fcda140e6bed470956cbe3470d181334d693cbf055
 	sha256sums = 6a87f9f758811528913fa4828667b200ab7dcb6623734475ecbd8f8dab337b2f
-	sha256sums = b2cfeb15b6e5bf97d1b7a0b0bdbec9289a842d37c52414c5b57aadda66b1b6a6
+	sha256sums = 0d7b715b8f12253ddfb5483a95dc491466960120737a06a5903b3613b1767090
 	sha256sums = 31d745af54f2e57b6be32a95e869d9e29f83126d85dec3bab47f1bd0b5542e84
 	sha256sums = edd3b435307c816e9454662d44e872626ab2dfe908f42a7f4529b63e4ac67d0f
 
